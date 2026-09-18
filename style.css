@@ -1,0 +1,300 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+p {
+  color: #6b6b6b;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 150%;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ================ TEXTO REUTILIZABLE ======================== */
+.texto-titulo {
+  color: #ff5a36;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+/* ================= BOTONES ======================================= */
+.button,
+.white-button {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.white-button {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* ================== HEADER ========================= */
+.site-header {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.site-header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 19%;
+  padding-right: 20%;
+  padding-bottom: 16px;
+}
+
+.site-header .logo {
+  height: 40px;
+  width: auto;
+}
+
+.site-header .menu ul {
+  display: flex;
+  gap: 32px;
+}
+
+.site-header .menu a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+}
+
+.site-header hr {
+  border: none;
+  border-top: 1px solid #eaeaea;
+}
+
+/* ============ HERO =========================== */
+.hero {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero .row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hero .col-md-6 {
+  width: 530px;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 420px;
+  margin-bottom: 28px;
+}
+
+/* caja negra con el "+120" */
+.black-box {
+  background-color: #14141a;
+  border-radius: 12px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black-box .texto-box {
+  text-align: center;
+}
+
+.black-box h2 {
+  color: #ff5a36;
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+}
+
+.black-box p {
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+/* ===================== SERVICIOS ====================== */
+.servicios {
+  background-color: #f5f5f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.titulo-servicios {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.titulo-servicios h2 {
+  font-size: 2rem;
+}
+
+.servicios .row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.tarj-serv {
+  width: 330px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.tarj-serv h3 {
+  color: #ff5a36;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.tarj-serv h4 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.tarj-serv p {
+  font-size: 0.9rem;
+}
+
+/* ======================== NOSOTROS ================== */
+.nosotros {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.nosotros .row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.nosotros .col-md-6 {
+  width: 580px;
+}
+
+.nosotros h2 {
+  font-size: 1.75rem;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.nosotros p {
+  max-width: 500px;
+}
+
+.s-tarj {
+  width: 200px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.s-tarj h3 {
+  color: #ff5a36;
+  font-size: 1.75rem;
+  margin-bottom: 4px;
+}
+
+.s-tarj p {
+  font-size: 0.8rem;
+}
+
+/* =================== CONTACTO =================== */
+.contacto {
+  background-color: #14141a;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contacto h2 {
+  font-size: 1.75rem;
+  margin-bottom: 12px;
+}
+
+.contacto p {
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+/* ================== FOOTER ====================== */
+.site-footer {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #ffffff;
+}
+
+.site-footer img {
+  height: 40px;
+  width: auto;
+}
+
+.site-footer p {
+  font-size: 0.8rem;
+}
